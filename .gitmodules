@@ -1,0 +1,3 @@
+[submodule "nuvoton-sdk"]
+	path = nuvoton-sdk
+	url = git@github.com:perillamint/M451BSP.git
