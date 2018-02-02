@@ -57,3 +57,6 @@ driver/*.sys
 *.map
 genuine/
 wrkspc.txt
+
+# Build dir
+/bin
