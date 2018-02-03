@@ -7,6 +7,7 @@ TARGET := myevic
 # change EVICSDK when building include paths.
 
 # Small fix to bug where cygpath -w mistranslates paths with mixed slashes (/, \)
+EVICSDK ?= .
 EVICSDK := $(subst \,/,$(EVICSDK))
 NUVOSDK = $(EVICSDK)/nuvoton-sdk/Library
 
